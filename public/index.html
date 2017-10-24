@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>Sri Sivan Pipes</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="HDPE manufacture company,Leading HDPE manufactures,Pipe industry,Kangeyam," name="description"/>
+        <meta content="" name="author"/>
+        <meta name="title" content="SriSivan pipes">
+        <!-- MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- PAGE LEVEL STYLES -->
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- THEME STYLES -->
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="img/logos.png"/>
+    <style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    /* Modal Content */
+    .modal-content {
+        background-color: #fefefe;
+        margin: 0 auto;
+        padding: 10px;
+        border: 1px solid #888;
+        width: 33%;
+    }
+
+    /* The Close Button */
+    .close {
+        color: #aaaaaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    * {box-sizing:border-box}
+    body {font-family: Verdana,sans-serif;margin:0}
+    .mySlides {display:none}
+
+    /* Slideshow container */
+    .slideshow-container {
+      /*max-width: 1000px;*/
+      position: relative;
+      margin: auto;
+    }
+
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active1, .dot:hover {
+      background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+    }
+    </style>
+</head>
+    <body>
+
+    <!-- Trigger/Open The Modal -->
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal row">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p style="color:#000 ; text-align: center;">Sri-Sivan Pipes</p>
+        <img src="img/modal.jpg" class="img-responsive">
+      </div>
+
+
+    </div>
+
+    <script>
+    // Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+window.onload = function() {
+  modal.style.display = "block";
+};
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+};
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
+</script>
+        <!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                        <!-- Logo -->
+                        <!-- <div class="logo">
+                            <a class="logo-wrap" href="index.html">
+                                <img class="logo-img logo-img-main" src="img/logos.png" alt="Asentus Logo">
+                                <img class="logo-img logo-img-active" src="img/logos.png" alt="Asentus Logo">
+                            </a>
+                        </div> -->
+                        <!-- End Logo -->
+                    </div>
+
+                    <!-- content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="navbar-nav navbar-nav-right">
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="#home">Home</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#products">Products</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#showcase">Images</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Navbar Collapse -->
+                </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <!--========== END HEADER ==========-->
+
+        <!--========== SLIDER ==========-->
+        <section id="home">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <div class="container">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                </ol>
+            </div>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                  <img class="img-responsive" src="img/bg1.jpg" alt="Slider Image">
+                  <div class="container">
+                      <div class="carousel-centered">
+                          <div class="margin-b-40">
+                              <h2 class="carousel-title">Sri-Sivan Pipes</h2>
+                              <p style="color:#ebecec">Products are manufactured to meet the requirements which are part of Water Management techniques.<br/> Constantly redefining our quality standards and focusing on surpassing of the same thus adding value to end users and business associates.  </p>
+                          </div>
+                          <a href="img/Srisivan pipes3.pdf" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Get Price-List</a>
+                      </div>
+                  </div>
+              </div>
+                <div class="item ">
+                    <img class="img-responsive" src="img/bg.jpg" alt="Slider Image">
+                    <div class="container">
+                        <div class="carousel-centered">
+                            <div class="margin-b-40">
+                                <h1 class="carousel-title">HDPE Pipes</h1>
+                                <p style="color:#ebecec">Sri Sivan Pipes is one of the leading manufacturers of <br/>HDPE pipes and Sprinkler Irrigation Equipments.</p>
+                            </div>
+                            <a href="img/Srisivan pipes3.pdf" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Get Price-List</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+      </section>
+        <!--========== SLIDER ==========-->
+
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- Service -->
+
+        <section id="about">
+        <div class="bg-color-sky-light" data-auto-height="true">
+            <div class="content-lg container">
+                <div class="row row-space-1 margin-b-2">
+                    <div class="col-sm-4 sm-margin-b-2">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-chemistry"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Quality Assurance</h3>
+                                    <p class="margin-b-5">Sri-Sivan's well established Quality Assurance system supports and ensures highest quality in the industry for the products manufactured with timely supply to our customers which meet the requirement completely.</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 sm-margin-b-2">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".2s">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-screen-tablet"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Infrastructure</h3>
+                                    <p class="margin-b-5">Our infrastructure plays an important role in enabling us to meet the exact requirements and standards of the industry. We are empowered by a sophisticated infrastructure, supported by highly experienced professionals.</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-badge"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3>Customer Satisfaction</h3>
+                                    <p class="margin-b-5">We satisfy the requirements of our clients by foreseeing their future demands, by maintaining a constant relationship with our customers & understanding their exact requirements.</p>
+                                </div>
+                                <a href="#" class="content-wrapper-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--// end row -->
+
+            </div>
+        </div>
+      </section>
+        <!-- End Service -->
+
+        <!-- Latest Products -->
+        <section id="products">
+        <div class="content-lg container">
+            <div class="row margin-b-40">
+                <div class="col-sm-9">
+                    <h2>Our Products</h2>
+                    <p>The Company aims to manufacture the best quality High Density PolyEthylene Pipes (HDPE pipes) .We started our operations from 1997 with a initial capacity of 240 tpa with pipe sizes from 20MM to 110MM, today is one on the leading manufacturers of HDPE pipes and Sprinkler Irrigation Equipments .</p>
+                </div>
+            </div>
+            <!--// end row -->
+
+            <div class="row">
+                <!-- Latest Products -->
+                <div class="col-sm-4 sm-margin-b-50">
+                    <div class="margin-b-20">
+                      <div class="wow zoomIn slideshow-container" data-wow-duration=".3" data-wow-delay=".1s">
+                        <div class="hdpe">
+                            <div class="numbertext">1 / 3</div>
+                            <img class="img-responsive" src="img/hdpe2.jpg" alt="Latest Products Image" style="height:250px">
+
+                          </div>
+
+                          <div class="hdpe">
+                            <div class="numbertext">2 / 3</div>
+                            <img class="img-responsive" src="img/hdpe3.jpg" alt="Latest Products Image" style="height:250px">
+
+                          </div>
+
+                          <div class="hdpe">
+                            <div class="numbertext">3 / 3</div>
+                            <img class="img-responsive" src="img/hdpe4.jpg" alt="Latest Products Image" style="height:250px">
+
+                          </div>
+                          <a class="prev" onclick="plusSlidesa(-1)">&#10094;</a>
+                          <a class="next" onclick="plusSlidesa(1)">&#10095;</a>
+                          <!-- <img class="img-responsive" src="img/drip.jpg" alt="Latest Products Image" style="height:250px"> -->
+                      </div>
+<!-- ================ Image Slider ================ -->
+<script>
+var slideIndex = 1;
+showSlidesa(slideIndex);
+
+function plusSlidesa(n) {
+  showSlidesa((slideIndex += n));
+}
+
+function currentSlide(n) {
+  showSlidesa((slideIndex = n));
+}
+
+function showSlidesa(n) {
+  var i;
+  var slides = document.getElementsByClassName("hdpe");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active1", "");
+  }
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active1";
+}
+</script>
+<!-- ==================== End of ImageSlider ================== -->
+                    </div>
+                    <h4><a href="#">HDPE Pipes</a> <span class="text-uppercase margin-l-20">Manufactures</span></h4>
+                    <p>We manufacture high quality HDPE pipes . The product size varies from 16mm - 110mm . The Pipes are made form high quality granlues which are manufactured by extrusion process to HDPE pipes.</p>
+                    <a class="link" href="img/4.jpg">View</a>
+                </div>
+                <!-- End Latest Products -->
+
+                <!-- Latest Products -->
+                <div class="col-sm-4 sm-margin-b-50">
+                    <div class="margin-b-20">
+                        <div class="wow zoomIn slideshow-container" data-wow-duration=".3" data-wow-delay=".1s">
+                          <div class="mySlides">
+                              <div class="numbertext">1 / 3</div>
+                              <img class="img-responsive" src="img/drip1.jpg" alt="Latest Products Image" style="height:250px">
+
+                            </div>
+
+                            <div class="mySlides">
+                              <div class="numbertext">2 / 3</div>
+                              <img class="img-responsive" src="img/drip2.jpg" alt="Latest Products Image" style="height:250px">
+
+                            </div>
+
+                            <div class="mySlides">
+                              <div class="numbertext">3 / 3</div>
+                              <img class="img-responsive" src="img/drip3.jpg" alt="Latest Products Image" style="height:250px">
+
+                            </div>
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            <!-- <img class="img-responsive" src="img/drip.jpg" alt="Latest Products Image" style="height:250px"> -->
+                        </div>
+                    </div>
+<!-- ================ Image Slider ================ -->
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides((slideIndex += n));
+}
+
+function currentSlide(n) {
+  showSlides((slideIndex = n));
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active1", "");
+  }
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active1";
+}
+</script>
+<!-- ==================== End of ImageSlider ================== -->
+                    <h4><a href="#">LDPE - LLDPE </a> <span class="text-uppercase margin-l-20">Drip irrigation</span></h4>
+                    <p> The LDPE pipes are manufactured by extrusion process with class A granules. These pipes are Semi-rigid, translucent, very tough, weatherproof, good chemical resistance, low water absorption, low cost.
+                    </p>
+                    <a class="link" href="img/drip.jpg">View</a>
+                </div>
+                <!-- End Latest Products -->
+
+                <!-- Latest Products -->
+                <div class="col-sm-4 sm-margin-b-50">
+                    <div class="margin-b-20">
+                      <div class="wow zoomIn slideshow-container" data-wow-duration=".3" data-wow-delay=".1s">
+                        <div class="abcd">
+                            <div class="numbertext">1 / 3</div>
+                            <img class="img-responsive" src="img/sprinkler1.jpg" alt="Latest Products Image" style="height:250px">
+
+                          </div>
+
+                          <div class="abcd">
+                            <div class="numbertext">2 / 3</div>
+                            <img class="img-responsive" src="img/sprinkler2.jpg" alt="Latest Products Image" style="height:250px">
+
+                          </div>
+
+                          <div class="abcd">
+                            <div class="numbertext">3 / 3</div>
+                            <img class="img-responsive" src="img/sprinkler3.jpg" alt="Latest Products Image" style="height:250px">
+
+                          </div>
+                          <a class="prev" onclick="plusSlidess(-1)">&#10094;</a>
+                          <a class="next" onclick="plusSlidess(1)">&#10095;</a>
+                          <!-- <img class="img-responsive" src="img/drip.jpg" alt="Latest Products Image" style="height:250px"> -->
+                      </div>
+<!-- ================ Image Slider ================ -->
+<script>
+var slideIndex = 1;
+showSlidess(slideIndex);
+
+function plusSlidess(n) {
+  showSlidess((slideIndex += n));
+}
+
+function currentSlide(n) {
+  showSlidess((slideIndex = n));
+}
+
+function showSlidess(n) {
+  var i;
+  var slides = document.getElementsByClassName("abcd");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active1", "");
+  }
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active1";
+}
+</script>
+<!-- ==================== End of ImageSlider ================== -->
+                    </div>
+                    <h4><a href="#">Sprinklers</a> <span class="text-uppercase margin-l-20">Sprinkler Products</span></h4>
+                    <p>Sri Sivan Sprinkler system is an unique irrigation system. It is designed to ensure maximum water saving, combining high quality, affordability and ease of installation. Suitable for almost all field crops and also for Residential, Industrial, Hotel, Resorts, Golf Links.
+                    </p>
+                    <a class="link" href="img/sprinklers.jpg">View</a>
+                </div>
+                <!-- End Latest Products -->
+            </div>
+            <!--// end row -->
+        </div>
+      </section>
+        <!-- End Latest Products -->
+
+
+        <!-- Company Portfolio -->
+        <section id="showcase">
+        <div class="bg-color-sky-light overflow-h">
+            <div class="content-lg container">
+                <div class="row margin-b-40">
+                    <div class="col-sm-6">
+                        <h2>Images</h2>
+
+                    </div>
+                </div>
+                <!--// end row -->
+
+                <!-- Masonry Grid -->
+                <div class="masonry-grid">
+                    <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-6">
+                        <!-- Work -->
+                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
+                            <div class="work-overlay">
+                                <img class="full-width img-responsive" src="img/attachments/5.jpg" alt="Portfolio Image">
+                            </div>
+                            <div class="work-content"></div>
+                            <a class="content-wrapper-link" href="img/attachments/5.jpg"></a>
+                        </div>
+                        <!-- End Work -->
+                    </div>
+                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-6">
+                        <!-- Work -->
+                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".2s">
+                            <div class="work-overlay">
+                                <img class="full-width img-responsive" src="img/attachments/4.jpg" alt="Portfolio Image">
+                            </div>
+
+                            <a class="content-wrapper-link" href="img/attachments/4.jpg"></a>
+                        </div>
+                        <!-- End Work -->
+                    </div>
+                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-6">
+                        <!-- Work -->
+                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".3s">
+                            <div class="work-overlay">
+                                <img class="full-width img-responsive" src="img/attachments/2.jpg" alt="Portfolio Image">
+                            </div>
+
+                            <a class="content-wrapper-link" href="img/attachments/2.jpg"></a>
+                        </div>
+                        <!-- End Work -->
+                    </div>
+                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-6">
+                        <!-- Work -->
+                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".4s">
+                            <div class="work-overlay">
+                                <img class="full-width img-responsive" src="img/attachments/3.jpg" alt="Portfolio Image">
+                            </div>
+
+                            <a class="content-wrapper-link" href="img/attachments/3.jpg"></a>
+                        </div>
+                        <!-- End Work -->
+                    </div>
+                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-6">
+                        <!-- Work -->
+                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".5s">
+                            <div class="work-overlay">
+                                <img class="full-width img-responsive" src="img/attachments/6.jpg" alt="Portfolio Image">
+                            </div>
+
+                            <a class="content-wrapper-link" href="img/attachments/6.jpg"></a>
+                        </div>
+                        <!-- End Work -->
+                    </div>
+                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-6">
+                        <!-- Work -->
+                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".5s">
+                            <div class="work-overlay">
+                                <img class="full-width img-responsive" src="img/attachments/10.jpg" alt="Portfolio Image">
+                            </div>
+
+                            <a class="content-wrapper-link" href="img/attachments/10.jpg"></a>
+                        </div>
+                        <!-- End Work -->
+                    </div>
+                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-6">
+                        <!-- Work -->
+                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".5s">
+                            <div class="work-overlay">
+                                <img class="full-width img-responsive" src="img/attachments/9.jpg" alt="Portfolio Image">
+                            </div>
+
+                            <a class="content-wrapper-link" href="img/attachments/11.jpg"></a>
+                        </div>
+                        <!-- End Work -->
+                    </div>
+                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-6">
+                        <!-- Work -->
+                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".5s">
+                            <div class="work-overlay">
+                                <img class="full-width img-responsive" src="img/attachments/11.jpg" alt="Portfolio Image">
+                            </div>
+
+                            <a class="content-wrapper-link" href="img/attachments/9.jpg"></a>
+                        </div>
+                        <!-- End Work -->
+                    </div>
+                </div>
+                <!-- End Masonry Grid -->
+            </div>
+        </div>
+      </section>
+        <!-- End showcase -->
+        <!--========== END PAGE LAYOUT ==========-->
+        <!-- ============== Map section ================ -->
+        <section id="reachUs">
+          <div class="bg-color-sky-light">
+             <div class="content-lg container">
+                <div class="row row-space-1">
+                  <h2>Reach Us </h2>
+                  <div id="map"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <!--========== FOOTER ==========-->
+        <footer class="footer" id="contact">
+            <!-- Links -->
+            <div class="footer-seperator">
+                <div class="content-lg container">
+                    <div class="row">
+                        <div class="col-sm-4 sm-margin-b-40">
+                            <!-- List -->
+                            <ul class="list-unstyled footer-list">
+                                <li class="footer-list-item"><a class="footer-list-link" href="#">Address : </a>
+                                </br>
+
+                                <p>No – 3/41, Pachaakoundanvalasu,</br> Veerasolapuram Post, Kangeyam (Via),</br> Tirupur District – 638 701.</p>
+                              </li>
+                              <li class="footer-list-item"><a class="footer-list-link" href="#">Email : </a>
+                              </br>
+                                <p>srisivanpipes@gmail.com</p>
+                              </li>
+                              <li class="footer-list-item"><a class="footer-list-link" href="#">Phone : </a>
+                              </br>
+
+                                <p>+91 9578828282</br>04257 – 256552
+                                </p>
+                              </li>
+                            </ul>
+                            <!-- End List -->
+                        </div>
+                        <div class="col-sm-4 sm-margin-b-50">
+                            <!-- List -->
+                            <ul class="list-unstyled footer-list">
+                                <li class="footer-list-item"><a class="footer-list-link" href="#">Twitter</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="#">Facebook</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="#">Instagram</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="#">YouTube</a></li>
+                            </ul>
+                            <!-- End List -->
+                        </div>
+                        <div class="col-sm-4 sm-margin-b-30">
+                            <h2 class="color-white">Send Us A Note</h2>
+                            <form id="contactForm" action="https://script.google.com/macros/s/AKfycbzflhzBhD23eGFhHmpi48WoI9A4XeeY-avvSsMlYdAzLXNIIcw/exec" method="post">
+                              <input type="text" class="form-control footer-input margin-b-20" name="name" placeholder="Name" required>
+                              <input type="email" class="form-control footer-input margin-b-20" name="email" placeholder="Email" required>
+                              <input type="text" class="form-control footer-input margin-b-20" name="phone" placeholder="Phone" required>
+                              <textarea class="form-control footer-input margin-b-30" rows="6" name="message" placeholder="Message" required></textarea>
+                              <button type="submit" onClick="formSubmit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Submit</button>
+                          </form>
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+            <!-- End Links -->
+
+            <!-- Copyright -->
+            <div class="content container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <!-- <img class="footer-logo" src="img/logo.png" alt="Asentus Logo"> -->
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        <p class="margin-b-0"><a class="color-base fweight-700" href="http://keenthemes.com/preview/asentus/">Sri-Sivan Pipes</a> Theme by: <a class="color-base fweight-700" href="http://www.tomatogeekz.com/">TomatoGeekZ</a></p>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+            <!-- End Copyright -->
+        </footer>
+        <!--========== END FOOTER ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<script>
+// Attach a submit handler to the form
+$("#contactForm").submit(function(event) {
+  // Stop form from submitting normally
+  event.preventDefault();
+
+  // Get some values from elements on the page:
+  var $form = $(this),
+    name = $form.find("input[name='name']").val(),
+    email = $form.find("input[name='email']").val(),
+    phone = $form.find("input[name='phone']").val(),
+    message = $form.find("textarea[name='message']").val(),
+    url = $form.attr("action");
+
+  // Send the data using post
+  var posting = $.post(url, {
+    name: name,
+    email: email,
+    phone: phone,
+    message: message,
+  });
+
+  // Put the results in a div
+  posting.done(function(data) {
+    alert("Email sent sucessfully");
+  });
+});
+</script>
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+
+        <script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+        <script src="js/components/swiper.min.js" type="text/javascript"></script>
+        <script src="js/components/masonry.min.js" type="text/javascript"></script>
+        <script>
+      function initMap() {
+        var uluru = {lat: 10.9816479, lng: 77.6442311};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1loFk7DyfaJiNgoEx-JBltRE48LTif38&callback=initMap">
+    </script>
+
+    </body>
+    <!-- END BODY -->
+</html>

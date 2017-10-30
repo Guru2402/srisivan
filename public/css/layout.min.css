@@ -83,7 +83,7 @@ html a {
   -webkit-font-smoothing: antialiased;
 }
 p {
-  font-size: 15px;
+  font-size: 19px;
   font-weight: 400;
   color: #a6a7aa;
   margin-bottom: 15px;
@@ -450,7 +450,7 @@ fieldset[disabled] .btn-theme {
   background: rgba(0, 0, 0, 0.15);
 }
 .footer .footer-logo {
-  width: 85px;
+  width: 160px;
   height: auto;
 }
 .navbar-fixed-top .navbar-collapse {
@@ -535,11 +535,12 @@ fieldset[disabled] .btn-theme {
   background: rgba(81, 87, 105, 0);
 }
 .header .logo {
-  width: 100px;
+  width: 160px;
   height: 100px;
   float: left;
   max-height: 95px;
   line-height: 65px;
+  margin-bottom: 20px;
 }
 .header .logo-wrap {
   padding: 15px 0;
@@ -814,6 +815,7 @@ fieldset[disabled] .btn-theme {
   font-weight: 700;
   color: #fff;
   line-height: 1.1;
+  text-shadow: 8px 8px 2px black;
 }
 @media (max-width: 768px) {
   .carousel-title {
@@ -1044,7 +1046,7 @@ fieldset[disabled] .btn-theme {
   padding-right: 1px;
 }
 .content {
-  padding-top: 40px;
+  padding-top: 10px;
   padding-bottom: 40px;
 }
 .content-sm {
@@ -1116,6 +1118,7 @@ fieldset[disabled] .btn-theme {
 }
 .margin-b-0 {
   margin-bottom: 0 !important;
+  padding-top: 35px;
 }
 .margin-b-2 {
   margin-bottom: 2px !important;
